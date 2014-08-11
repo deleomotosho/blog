@@ -1,0 +1,76 @@
+{
+    "name": "thoughtsatire",
+    "type": "project",
+    "description": "Thought Satire: Like the layers of an onion, under the first lie is another, and under that another, and they all make you cry.",
+    "homepage": "http://thoughtsatire.com",
+
+    "authors": [
+        {
+            "name": "Dele Omotosho",
+            "email": "delomos@gmail.com",
+            "homepage": "https://github.com/delomos"
+        }
+    ],
+
+    "autoload": {
+        "psr-0": {
+            "Bedrock\\Installer": "scripts"
+        }
+    },
+
+    "scripts": {
+        "post-root-package-install": ["Bedrock\\Installer::addSalts"]
+    },
+
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress",
+                "version": "3.9.2",
+                "type": "webroot",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/WordPress/WordPress/archive/3.9.2.zip"
+                },
+                "require": {
+                    "fancyguy/webroot-installer": "1.1.0"
+                }
+            }
+        },
+
+        {"type": "vcs", "url": "git@bitbucket.org:delomos/read.git"}
+
+    ],
+
+    "require": {
+        "php": ">=5.3.2",
+        "wordpress": "3.9.2",
+        "fancyguy/webroot-installer": "1.1.0",
+        "composer/installers": "v1.0.6",
+        "wp-cli/php-cli-tools": "dev-master",
+        "wp-cli/wp-cli": "dev-master",
+        "vlucas/phpdotenv": "~1.0.5",
+
+        "wpackagist-plugin/google-analytics-for-wordpress": "dev-trunk",
+        "wpackagist-plugin/duplicate-post": "dev-trunk",
+        "wpackagist-plugin/contact-form-7": "dev-trunk",
+
+        "delomos/read": "dev-master"
+
+    },
+
+    "extra": {
+        "installer-paths": {
+            "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+            "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+            "web/app/themes/{$name}/": ["type:wordpress-theme"]
+        },
+        "webroot-dir": "web/wp",
+        "webroot-package": "wordpress"
+    }
+}

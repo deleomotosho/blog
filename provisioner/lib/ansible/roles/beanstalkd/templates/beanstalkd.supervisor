@@ -1,0 +1,13 @@
+[program:beanstalkd]
+command=beanstalkd
+stdout_logfile=/var/log/beanstalkd
+
+
+[program:cleanqueue]
+command=php artisan queue:listen --timeout=8000 --memory=512 -n -v
+environment=COMPOSER_PROCESS_TIMEOUT=8000
+directory=/vagrant
+numprocs=5
+stdout_logfile=/vagrant/app/storage/logs/supervisor_queue.log
+redirect_stderr=true
+

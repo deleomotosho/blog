@@ -1,0 +1,3 @@
+[rsync]
+remote = dele.webfactional.com:share/fat-store
+sshuser = dele

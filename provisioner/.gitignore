@@ -1,0 +1,26 @@
+# Vagrant Files
+.vagrant
+package.box
+
+# Ansible Files
+vagrant_ansible*
+.my.cnf
+.protobox
+
+# Other Repos
+packer/*
+vagrant-protobox-gem/*
+protobox-gem/*
+vagrant_src/*
+ansible_src/*
+
+# Web Files
+index.html
+
+# Sublime Text
+*.sublime*
+
+# OS or Editor folders
+.DS_Store
+Thumbs.db
+logs

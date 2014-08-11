@@ -1,0 +1,5 @@
+- name: ntp-restart
+  service: >
+    name={{ service_ntp }}
+    state=restarted
+    enabled=yes

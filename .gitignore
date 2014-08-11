@@ -1,0 +1,55 @@
+# WordPress
+wp
+#.htaccess
+
+web/.htaccess
+#web/wp-config.php
+
+# WP-CLI
+db-sync
+sql-dump-*.sql
+
+# Dotenv
+.env
+.env.*
+!.env.tmpl
+
+# Application
+web/app/uploads
+web/app/upgrade
+web/app/plugins/*
+web/app/themes/*
+web/app/aam
+!web/app/plugins/.gitkeep
+!web/app/themes/.gitkeep
+web/app/mu-plugins/*
+!web/app/mu-plugins/register-theme-directory.php
+
+web/app/advanced-cache.php
+web/app/cache/
+web/app/w3tc-config/
+
+# Vendor (e.g. Composer)
+vendor
+!vendor/.gitkeep
+
+# Node Package Manager
+node_modules
+
+# Vagrant
+bin
+.vagrant
+
+# Misc
+adminer
+.idea
+.DS_Store
+post-*
+logs
+vagrant
+
+index.html
+
+# ignore SSH Keys
+puphpet/files/dot/ssh/*
+!puphpet/files/dot/ssh/insecure_private_key

@@ -1,0 +1,5 @@
+Host server
+	HostName **.**.com
+	User pyxis
+	Port 22
+	 

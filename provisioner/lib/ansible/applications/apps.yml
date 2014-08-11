@@ -1,0 +1,6 @@
+- name: Applications
+  hosts: all
+  vars_files:
+    - [ $protobox_config ]
+  roles:
+    - { role: 'laravel', dir: 'applications/laravel', when: "applications.laravel is defined" }

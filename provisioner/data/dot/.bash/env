@@ -1,0 +1,11 @@
+# author: dele.o
+# http://delewrit.es
+
+export EDITOR="subl -w"
+# uncomment this to add this to your path env
+# export PATH=$PATH:~/dotfiles
+export PATH=$PATH:~/bin:/vagrant/vendor/bin
+# Support for Node.js path
+export NODE_PATH="/usr/local/lib/node_modules"
+
+
