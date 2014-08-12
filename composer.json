@@ -58,7 +58,6 @@
 
         "wpackagist-plugin/disqus-comment-system": "dev-trunk",
         "wpackagist-plugin/fd-footnotes": "dev-trunk",
-        "wpackagist-plugin/efficient-related-posts": "dev-trunk",
 
         "delomos/read": "dev-master"
 

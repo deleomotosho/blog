@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5d0d4310ec5552ce37fe6daa891d9559",
+    "hash": "f5055312bc2c623f788228d5377583cb",
     "packages": [
         {
             "name": "composer/installers",
@@ -551,30 +551,6 @@
             "time": "2014-06-24 00:43:16"
         },
         {
-            "name": "wpackagist-plugin/efficient-related-posts",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/efficient-related-posts/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/efficient-related-posts.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/efficient-related-posts": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/efficient-related-posts/",
-            "time": "2013-09-17 13:57:59"
-        },
-        {
             "name": "wpackagist-plugin/fd-footnotes",
             "version": "dev-trunk",
             "source": {
@@ -607,7 +583,6 @@
         "wp-cli/wp-cli": 20,
         "wpackagist-plugin/disqus-comment-system": 20,
         "wpackagist-plugin/fd-footnotes": 20,
-        "wpackagist-plugin/efficient-related-posts": 20,
         "delomos/read": 20
     },
     "prefer-stable": false,
