@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a5bb257b0d2e039cf143cd2334a24781",
+    "hash": "8fe2f8a51c02d559cea2ec40f63066f2",
     "packages": [
         {
             "name": "composer/installers",
@@ -551,16 +551,16 @@
             "time": "2014-08-07 08:39:57"
         },
         {
-            "name": "wpackagist-plugin/duplicate-post",
+            "name": "wpackagist-plugin/disqus-comment-system",
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/duplicate-post/",
+                "url": "http://plugins.svn.wordpress.org/disqus-comment-system/",
                 "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/duplicate-post.zip",
+                "url": "http://downloads.wordpress.org/plugin/disqus-comment-system.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -568,11 +568,59 @@
                 "composer/installers": "~1.0"
             },
             "replace": {
-                "wpackagist/duplicate-post": "self.version"
+                "wpackagist/disqus-comment-system": "self.version"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/duplicate-post/",
-            "time": "2014-02-27 10:03:08"
+            "homepage": "http://wordpress.org/plugins/disqus-comment-system/",
+            "time": "2014-06-24 00:43:16"
+        },
+        {
+            "name": "wpackagist-plugin/efficient-related-posts",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/efficient-related-posts/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/efficient-related-posts.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/efficient-related-posts": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/efficient-related-posts/",
+            "time": "2013-09-17 13:57:59"
+        },
+        {
+            "name": "wpackagist-plugin/fd-footnotes",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/fd-footnotes/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/fd-footnotes.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "replace": {
+                "wpackagist/fd-footnotes": "self.version"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/fd-footnotes/",
+            "time": "2013-12-13 17:50:43"
         },
         {
             "name": "wpackagist-plugin/google-analytics-for-wordpress",
@@ -606,8 +654,10 @@
         "wp-cli/php-cli-tools": 20,
         "wp-cli/wp-cli": 20,
         "wpackagist-plugin/google-analytics-for-wordpress": 20,
-        "wpackagist-plugin/duplicate-post": 20,
         "wpackagist-plugin/contact-form-7": 20,
+        "wpackagist-plugin/disqus-comment-system": 20,
+        "wpackagist-plugin/fd-footnotes": 20,
+        "wpackagist-plugin/efficient-related-posts": 20,
         "delomos/read": 20
     },
     "prefer-stable": false,
