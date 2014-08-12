@@ -56,8 +56,6 @@
         "wp-cli/wp-cli": "dev-master",
         "vlucas/phpdotenv": "~1.0.5",
 
-        "wpackagist-plugin/google-analytics-for-wordpress": "dev-trunk",
-        "wpackagist-plugin/contact-form-7": "dev-trunk",
         "wpackagist-plugin/disqus-comment-system": "dev-trunk",
         "wpackagist-plugin/fd-footnotes": "dev-trunk",
         "wpackagist-plugin/efficient-related-posts": "dev-trunk",

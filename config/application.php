@@ -35,7 +35,7 @@ define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
  */
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
-$table_prefix = 'wp_';
+$table_prefix = getenv('DB_PREFIX') ? getenv('DB_PREFIX') : 'wp_';
 
 /**
  * WordPress Localized Language
@@ -63,20 +63,6 @@ define('NONCE_SALT',       getenv('NONCE_SALT'));
 define('AUTOMATIC_UPDATER_DISABLED', true);
 define('DISABLE_WP_CRON', true);
 define('DISALLOW_FILE_EDIT', true);
-
-/**
- * Multisite
- */
-//define('MULTISITE', true);
-//define('SUBDOMAIN_INSTALL', true);
-//define( 'DOMAIN_CURRENT_SITE', getenv('DOMAIN_CURRENT_SITE') );
-//define('PATH_CURRENT_SITE', '/');
-//define('SITE_ID_CURRENT_SITE', 1);
-//define('BLOG_ID_CURRENT_SITE', 1);
-////define('ADMIN_COOKIE_PATH', '/');
-//define('COOKIE_DOMAIN', '');
-//define('COOKIEPATH', '');
-//define('SITECOOKIEPATH', '');
 
 /**
  * Bootstrap WordPress

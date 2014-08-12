@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8fe2f8a51c02d559cea2ec40f63066f2",
+    "hash": "5d0d4310ec5552ce37fe6daa891d9559",
     "packages": [
         {
             "name": "composer/installers",
@@ -527,30 +527,6 @@
             "time": "2014-08-10 19:42:30"
         },
         {
-            "name": "wpackagist-plugin/contact-form-7",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/contact-form-7.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/contact-form-7": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/contact-form-7/",
-            "time": "2014-08-07 08:39:57"
-        },
-        {
             "name": "wpackagist-plugin/disqus-comment-system",
             "version": "dev-trunk",
             "source": {
@@ -621,30 +597,6 @@
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/fd-footnotes/",
             "time": "2013-12-13 17:50:43"
-        },
-        {
-            "name": "wpackagist-plugin/google-analytics-for-wordpress",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/google-analytics-for-wordpress/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/google-analytics-for-wordpress.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/google-analytics-for-wordpress": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/google-analytics-for-wordpress/",
-            "time": "2014-07-17 14:24:11"
         }
     ],
     "packages-dev": [],
@@ -653,8 +605,6 @@
     "stability-flags": {
         "wp-cli/php-cli-tools": 20,
         "wp-cli/wp-cli": 20,
-        "wpackagist-plugin/google-analytics-for-wordpress": 20,
-        "wpackagist-plugin/contact-form-7": 20,
         "wpackagist-plugin/disqus-comment-system": 20,
         "wpackagist-plugin/fd-footnotes": 20,
         "wpackagist-plugin/efficient-related-posts": 20,
