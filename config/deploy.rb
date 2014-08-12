@@ -21,7 +21,10 @@ SSHKit.config.command_map[:composer] = "php55 /home/dele/composer.phar"
 
 set :composer_install_flags, '--no-dev --no-scripts --prefer-source --optimize-autoloader'
 
-set :linked_files, %w{web/.env}
+# Apache users with .htaccess files:
+# it needs to be added to linked_files so it persists across deploys:
+# set :linked_files, %w{.env web/.htaccess}
+set :linked_files, %w{.env}
 set :linked_dirs, %w{web/app/uploads}
 
 namespace :deploy do
