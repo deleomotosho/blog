@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f5055312bc2c623f788228d5377583cb",
+    "hash": "c59856e1d19bb220556b61174df4420e",
     "packages": [
         {
             "name": "composer/installers",
@@ -84,7 +84,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:delomos/read.git",
+                "url": "git@bitbucket.com:delomos/read.git",
                 "reference": "8e98c0dc0266bb49b5d4fc64b769443e0dd317b7"
             },
             "require": {
@@ -406,10 +406,10 @@
         },
         {
             "name": "wordpress",
-            "version": "3.9.2",
+            "version": "3.9.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/3.9.2.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/3.9.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -474,12 +474,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli.git",
-                "reference": "1e810f7b0fbe464c40210329539764f728361d02"
+                "reference": "e40030e5f8f1f402dfccf1b002dd545238a000dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/1e810f7b0fbe464c40210329539764f728361d02",
-                "reference": "1e810f7b0fbe464c40210329539764f728361d02",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/e40030e5f8f1f402dfccf1b002dd545238a000dc",
+                "reference": "e40030e5f8f1f402dfccf1b002dd545238a000dc",
                 "shasum": ""
             },
             "require": {
@@ -524,7 +524,7 @@
                 "cli",
                 "wordpress"
             ],
-            "time": "2014-08-10 19:42:30"
+            "time": "2014-08-12 23:44:34"
         },
         {
             "name": "wpackagist-plugin/disqus-comment-system",

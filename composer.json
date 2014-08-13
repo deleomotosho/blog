@@ -31,11 +31,11 @@
             "type": "package",
             "package": {
                 "name": "wordpress",
-                "version": "3.9.2",
+                "version": "3.9.1",
                 "type": "webroot",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/3.9.2.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/3.9.1.zip"
                 },
                 "require": {
                     "fancyguy/webroot-installer": "1.1.0"
@@ -43,13 +43,13 @@
             }
         },
 
-        {"type": "vcs", "url": "git@bitbucket.org:delomos/read.git"}
+        {"type": "vcs", "url": "git@bitbucket.com:delomos/read.git"}
 
     ],
 
     "require": {
         "php": ">=5.3.2",
-        "wordpress": "3.9.2",
+        "wordpress": "3.9.1",
         "fancyguy/webroot-installer": "1.1.0",
         "composer/installers": "v1.0.6",
         "wp-cli/php-cli-tools": "dev-master",
