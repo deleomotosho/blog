@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "2550130b97e057c9aac3c871146044aa",
+    "hash": "29b8fbfdae95d63219337ba30b7a6e21",
     "packages": [
         {
             "name": "composer/installers",
@@ -78,20 +78,6 @@
                 "zend"
             ],
             "time": "2013-08-20 04:37:09"
-        },
-        {
-            "name": "delomos/read",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.com:delomos/read.git",
-                "reference": "8e98c0dc0266bb49b5d4fc64b769443e0dd317b7"
-            },
-            "require": {
-                "composer/installers": "~1.0.0"
-            },
-            "type": "wordpress-theme",
-            "time": "2014-08-11 03:51:26"
         },
         {
             "name": "fancyguy/webroot-installer",
@@ -358,6 +344,30 @@
             "time": "2014-07-28 13:20:46"
         },
         {
+            "name": "thoughtsatire/theme",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thoughtsatire/blog-theme.git",
+                "reference": "cff17e658d0a0f0e681ae3350bd38b256c56b34c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thoughtsatire/blog-theme/zipball/cff17e658d0a0f0e681ae3350bd38b256c56b34c",
+                "reference": "cff17e658d0a0f0e681ae3350bd38b256c56b34c",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0.0"
+            },
+            "type": "wordpress-theme",
+            "support": {
+                "source": "https://github.com/thoughtsatire/blog-theme/tree/master",
+                "issues": "https://github.com/thoughtsatire/blog-theme/issues"
+            },
+            "time": "2014-08-16 04:25:46"
+        },
+        {
             "name": "vlucas/phpdotenv",
             "version": "1.0.6",
             "source": {
@@ -474,12 +484,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli.git",
-                "reference": "e40030e5f8f1f402dfccf1b002dd545238a000dc"
+                "reference": "fca64387c41158df42072bf036fe54030217366b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/e40030e5f8f1f402dfccf1b002dd545238a000dc",
-                "reference": "e40030e5f8f1f402dfccf1b002dd545238a000dc",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/fca64387c41158df42072bf036fe54030217366b",
+                "reference": "fca64387c41158df42072bf036fe54030217366b",
                 "shasum": ""
             },
             "require": {
@@ -524,7 +534,7 @@
                 "cli",
                 "wordpress"
             ],
-            "time": "2014-08-12 23:44:34"
+            "time": "2014-08-14 21:01:09"
         },
         {
             "name": "wpackagist-plugin/disqus-comment-system",
@@ -583,7 +593,7 @@
         "wp-cli/wp-cli": 20,
         "wpackagist-plugin/disqus-comment-system": 20,
         "wpackagist-plugin/fd-footnotes": 20,
-        "delomos/read": 20
+        "thoughtsatire/theme": 20
     },
     "prefer-stable": false,
     "platform": {

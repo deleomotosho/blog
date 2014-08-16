@@ -1,5 +1,6 @@
 set :application, 'thoughtsatire'
-set :repo_url, 'git@github.com:delomos/thoughtsatire.git'
+set :repo_url, 'git@github.com:thoughtsatire/blog.git'
+
 # Branch options
 # Prompts for the branch name (defaults to current branch)
 #ask :branch, -> { `git rev-parse --abbrev-ref HEAD`.chomp }

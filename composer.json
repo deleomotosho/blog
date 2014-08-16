@@ -8,7 +8,7 @@
         {
             "name": "Dele Omotosho",
             "email": "delomos@gmail.com",
-            "homepage": "https://github.com/delomos"
+            "homepage": "https://github.com/thoughtsatire"
         }
     ],
 
@@ -43,7 +43,7 @@
             }
         },
 
-        {"type": "vcs", "url": "git@bitbucket.com:delomos/read.git"}
+        {"type": "vcs", "url": "git@github.com:thoughtsatire/blog-theme.git"}
 
     ],
 
@@ -59,7 +59,7 @@
         "wpackagist-plugin/disqus-comment-system": "dev-trunk",
         "wpackagist-plugin/fd-footnotes": "dev-trunk",
 
-        "delomos/read": "dev-master"
+        "thoughtsatire/theme": "dev-master"
 
     },
 
