@@ -58,6 +58,7 @@
 
         "wpackagist-plugin/disqus-comment-system": "dev-trunk",
         "wpackagist-plugin/fd-footnotes": "dev-trunk",
+        "wpackagist-plugin/jetpack": "dev-trunk",
 
         "thoughtsatire/theme": "dev-master"
 
