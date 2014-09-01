@@ -56,7 +56,11 @@
         "wp-cli/wp-cli": "dev-master",
         "vlucas/phpdotenv": "~1.0.5",
 
-        "wpackagist-plugin/disqus-comment-system": "dev-trunk",
+        "wpackagist/commentluv": "*",
+        "wpackagist/growmap-anti-spambot-plugin": "*",
+        "wpackagist/subscribe-to-comments-reloaded": "*",
+        "wpackagist/sem-dofollow": "*",
+        "wpackagist/replyme": "*",
         "wpackagist-plugin/fd-footnotes": "dev-trunk",
         "wpackagist-plugin/jetpack": "dev-trunk",
 
