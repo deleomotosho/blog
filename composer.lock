@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "efa49f6523e2fd739c31b2744b7b00bc",
+    "hash": "1efd2013b22ed7ca63387524e71016d4",
     "packages": [
         {
             "name": "composer/installers",
@@ -537,30 +537,6 @@
             "time": "2014-08-30 18:50:14"
         },
         {
-            "name": "wpackagist-plugin/disqus-comment-system",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/disqus-comment-system/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/disqus-comment-system.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/disqus-comment-system": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/disqus-comment-system/",
-            "time": "2014-06-24 00:43:16"
-        },
-        {
             "name": "wpackagist-plugin/fd-footnotes",
             "version": "dev-trunk",
             "source": {
@@ -607,15 +583,138 @@
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/jetpack/",
             "time": "2014-08-27 22:52:55"
+        },
+        {
+            "name": "wpackagist/commentluv",
+            "version": "2.93.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/commentluv/",
+                "reference": "tags/2.93.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/commentluv.2.93.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/commentluv/"
+        },
+        {
+            "name": "wpackagist/growmap-anti-spambot-plugin",
+            "version": "1.5.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/growmap-anti-spambot-plugin/",
+                "reference": "tags/1.5.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/growmap-anti-spambot-plugin.1.5.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/growmap-anti-spambot-plugin/"
+        },
+        {
+            "name": "wpackagist/replyme",
+            "version": "1.0.5",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/replyme/",
+                "reference": "tags/1.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/replyme.1.0.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/replyme/"
+        },
+        {
+            "name": "wpackagist/sem-dofollow",
+            "version": "4.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/sem-dofollow/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/sem-dofollow.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/sem-dofollow/"
+        },
+        {
+            "name": "wpackagist/stagtools",
+            "version": "1.2.6",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/stagtools/",
+                "reference": "tags/1.2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/stagtools.1.2.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/stagtools/"
+        },
+        {
+            "name": "wpackagist/subscribe-to-comments-reloaded",
+            "version": 140515,
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/subscribe-to-comments-reloaded/",
+                "reference": "tags/140515"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/subscribe-to-comments-reloaded.140515.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/subscribe-to-comments-reloaded/"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
     "minimum-stability": "stable",
     "stability-flags": {
         "wp-cli/php-cli-tools": 20,
         "wp-cli/wp-cli": 20,
-        "wpackagist-plugin/disqus-comment-system": 20,
         "wpackagist-plugin/fd-footnotes": 20,
         "wpackagist-plugin/jetpack": 20,
         "thoughtsatire/theme": 20
@@ -624,5 +723,7 @@
     "platform": {
         "php": ">=5.3.2"
     },
-    "platform-dev": []
+    "platform-dev": [
+
+    ]
 }
