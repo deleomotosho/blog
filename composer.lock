@@ -123,16 +123,16 @@
         },
         {
             "name": "mustache/mustache",
-            "version": "v2.6.1",
+            "version": "v2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/bobthecow/mustache.php.git",
-                "reference": "1430ca884912eaba2b3830856b45685733b16789"
+                "reference": "fdf41dd673dc99b41d60992470dbae94ae0b6ba1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/1430ca884912eaba2b3830856b45685733b16789",
-                "reference": "1430ca884912eaba2b3830856b45685733b16789",
+                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/fdf41dd673dc99b41d60992470dbae94ae0b6ba1",
+                "reference": "fdf41dd673dc99b41d60992470dbae94ae0b6ba1",
                 "shasum": ""
             },
             "require": {
@@ -164,7 +164,7 @@
                 "mustache",
                 "templating"
             ],
-            "time": "2014-06-20 19:34:49"
+            "time": "2014-08-26 19:50:10"
         },
         {
             "name": "nb/oxymel",
@@ -434,12 +434,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/php-cli-tools.git",
-                "reference": "64f04319c680f16d6a69c782643a11ab6af3dcb3"
+                "reference": "4f09ec158422e6a5668afb30f91251e70a48e612"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/64f04319c680f16d6a69c782643a11ab6af3dcb3",
-                "reference": "64f04319c680f16d6a69c782643a11ab6af3dcb3",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/4f09ec158422e6a5668afb30f91251e70a48e612",
+                "reference": "4f09ec158422e6a5668afb30f91251e70a48e612",
                 "shasum": ""
             },
             "require": {
@@ -476,7 +476,7 @@
                 "cli",
                 "console"
             ],
-            "time": "2014-08-04 21:19:08"
+            "time": "2014-08-10 19:55:19"
         },
         {
             "name": "wp-cli/wp-cli",
@@ -484,12 +484,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/wp-cli.git",
-                "reference": "fca64387c41158df42072bf036fe54030217366b"
+                "reference": "0f53bd07ca5e49c27b384cd1ed3788a46883fa18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/fca64387c41158df42072bf036fe54030217366b",
-                "reference": "fca64387c41158df42072bf036fe54030217366b",
+                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/0f53bd07ca5e49c27b384cd1ed3788a46883fa18",
+                "reference": "0f53bd07ca5e49c27b384cd1ed3788a46883fa18",
                 "shasum": ""
             },
             "require": {
@@ -534,7 +534,7 @@
                 "cli",
                 "wordpress"
             ],
-            "time": "2014-08-14 21:01:09"
+            "time": "2014-08-30 18:50:14"
         },
         {
             "name": "wpackagist-plugin/disqus-comment-system",
@@ -606,7 +606,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/jetpack/",
-            "time": "2014-08-07 17:31:17"
+            "time": "2014-08-27 22:52:55"
         }
     ],
     "packages-dev": [],

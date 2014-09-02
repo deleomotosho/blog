@@ -35,7 +35,7 @@ define('WP_CONTENT_URL', WP_HOME . CONTENT_DIR);
  */
 define('DB_CHARSET', 'utf8');
 define('DB_COLLATE', '');
-$table_prefix = getenv('DB_PREFIX') ? getenv('DB_PREFIX') : 'wp_';
+$table_prefix = getenv('DB_PREFIX') ? getenv('DB_PREFIX') : 'ts_';
 
 /**
  * WordPress Localized Language
