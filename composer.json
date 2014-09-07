@@ -31,11 +31,11 @@
             "type": "package",
             "package": {
                 "name": "wordpress",
-                "version": "3.9.2",
+                "version": "4.0",
                 "type": "webroot",
                 "dist": {
                     "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/3.9.2.zip"
+                    "url": "https://github.com/WordPress/WordPress/archive/4.0.zip"
                 },
                 "require": {
                     "fancyguy/webroot-installer": "1.1.0"
@@ -43,30 +43,29 @@
             }
         },
 
-        {"type": "vcs", "url": "git@github.com:thoughtsatire/blog-theme.git"}
+        {"type": "vcs", "url": "git@github.com:thoughtsatire/blog-theme.git"},
+        {"type": "vcs", "url": "git@bitbucket.org:geleyi/social-networks-poster.git"}
 
     ],
 
     "require": {
         "php": ">=5.3.2",
-        "wordpress": "3.9.2",
+        "wordpress": "4.0.*",
         "fancyguy/webroot-installer": "1.1.0",
         "composer/installers": "v1.0.6",
         "wp-cli/php-cli-tools": "dev-master",
         "wp-cli/wp-cli": "dev-master",
         "vlucas/phpdotenv": "~1.0.5",
 
-        "wpackagist/commentluv": "*",
-        "wpackagist/growmap-anti-spambot-plugin": "*",
-        "wpackagist/subscribe-to-comments-reloaded": "*",
-        "wpackagist/sem-dofollow": "*",
-        "wpackagist/replyme": "*",
+        "wpackagist/disqus-comment-system": "*",
         "wpackagist-plugin/fd-footnotes": "dev-trunk",
         "wpackagist-plugin/jetpack": "dev-trunk",
         "wpackagist/stagtools": "*",
+        "wpackagist/yet-another-related-posts-plugin": "*",
 
-        
-        "thoughtsatire/theme": "dev-master"
+
+        "thoughtsatire/theme": "dev-master",
+        "geleyi/social-networks-poster": "dev-master"
 
     },
 
