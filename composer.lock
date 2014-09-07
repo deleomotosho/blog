@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c831d7dfca0d893dfd79316aa11aadb4",
+    "hash": "0066a856ded07b2d40e8652036016e98",
     "packages": [
         {
             "name": "composer/installers",
@@ -617,6 +617,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/disqus-comment-system/"
+        },
+        {
+            "name": "wpackagist/social-networks-auto-poster-facebook-twitter-g",
+            "version": "3.4.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/social-networks-auto-poster-facebook-twitter-g/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/social-networks-auto-poster-facebook-twitter-g.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/"
         },
         {
             "name": "wpackagist/stagtools",

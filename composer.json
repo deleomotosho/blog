@@ -62,6 +62,7 @@
         "wpackagist-plugin/jetpack": "dev-trunk",
         "wpackagist/stagtools": "*",
         "wpackagist/yet-another-related-posts-plugin": "*",
+        "wpackagist/social-networks-auto-poster-facebook-twitter-g": "*",
 
 
         "thoughtsatire/theme": "dev-master",
