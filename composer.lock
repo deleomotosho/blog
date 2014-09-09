@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0066a856ded07b2d40e8652036016e98",
+    "hash": "3248324d253594c57101f7a7f889903e",
     "packages": [
         {
             "name": "composer/installers",
@@ -448,12 +448,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/php-cli-tools.git",
-                "reference": "4f09ec158422e6a5668afb30f91251e70a48e612"
+                "reference": "0fa663fce60a4378a0dcdfc8e08245e17aee9557"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/4f09ec158422e6a5668afb30f91251e70a48e612",
-                "reference": "4f09ec158422e6a5668afb30f91251e70a48e612",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/0fa663fce60a4378a0dcdfc8e08245e17aee9557",
+                "reference": "0fa663fce60a4378a0dcdfc8e08245e17aee9557",
                 "shasum": ""
             },
             "require": {
@@ -490,7 +490,7 @@
                 "cli",
                 "console"
             ],
-            "time": "2014-08-10 19:55:19"
+            "time": "2014-09-07 21:53:08"
         },
         {
             "name": "wp-cli/wp-cli",
@@ -617,6 +617,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "http://wordpress.org/plugins/disqus-comment-system/"
+        },
+        {
+            "name": "wpackagist/flare",
+            "version": "1.2.7",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/flare/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "http://downloads.wordpress.org/plugin/flare.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "http://wordpress.org/plugins/flare/"
         },
         {
             "name": "wpackagist/social-networks-auto-poster-facebook-twitter-g",

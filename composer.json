@@ -63,6 +63,7 @@
         "wpackagist/stagtools": "*",
         "wpackagist/yet-another-related-posts-plugin": "*",
         "wpackagist/social-networks-auto-poster-facebook-twitter-g": "*",
+        "wpackagist/flare": "*",
 
 
         "thoughtsatire/theme": "dev-master",
