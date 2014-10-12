@@ -54,7 +54,7 @@
         "fancyguy/webroot-installer": "1.1.0",
         "composer/installers": "v1.0.6",
         "wp-cli/php-cli-tools": "dev-master",
-        "wp-cli/wp-cli": "dev-master",
+        "wp-cli/wp-cli": "*",
         "vlucas/phpdotenv": "~1.0.5",
 
         "wpackagist/disqus-comment-system": "*",
@@ -64,6 +64,7 @@
         "wpackagist/yet-another-related-posts-plugin": "*",
         "wpackagist/social-networks-auto-poster-facebook-twitter-g": "*",
         "wpackagist/flare": "*",
+        "wpackagist/wp-markdown": "dev-master",
 
 
         "thoughtsatire/theme": "dev-master",
