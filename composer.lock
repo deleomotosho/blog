@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d963d759384d2a15f537da4412b16be7",
+    "hash": "0b923de92f4abdb910a99b373e073c3e",
     "packages": [
         {
             "name": "composer/installers",
@@ -183,12 +183,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thoughtsatire/blog-theme.git",
-                "reference": "2507d5c7a77b14d6d455ca5214363ca317d23ecd"
+                "reference": "31f6498c88a315ca739aa56d42546a5e4fec1347"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thoughtsatire/blog-theme/zipball/2507d5c7a77b14d6d455ca5214363ca317d23ecd",
-                "reference": "2507d5c7a77b14d6d455ca5214363ca317d23ecd",
+                "url": "https://api.github.com/repos/thoughtsatire/blog-theme/zipball/31f6498c88a315ca739aa56d42546a5e4fec1347",
+                "reference": "31f6498c88a315ca739aa56d42546a5e4fec1347",
                 "shasum": ""
             },
             "require": {
@@ -199,29 +199,34 @@
                 "source": "https://github.com/thoughtsatire/blog-theme/tree/master",
                 "issues": "https://github.com/thoughtsatire/blog-theme/issues"
             },
-            "time": "2014-10-12 23:29:52"
+            "time": "2015-03-11 19:26:12"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "1.0.6",
+            "version": "v1.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "2821c024b4c14c7e6d1ff99e063ae9532620beb2"
+                "reference": "56c252d48dce336da97926591aed71805203815b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2821c024b4c14c7e6d1ff99e063ae9532620beb2",
-                "reference": "2821c024b4c14c7e6d1ff99e063ae9532620beb2",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/56c252d48dce336da97926591aed71805203815b",
+                "reference": "56c252d48dce336da97926591aed71805203815b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.2"
             },
             "require-dev": {
-                "phpunit/phpunit": "*"
+                "phpunit/phpunit": "~4.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
                     "Dotenv": "src/"
@@ -235,8 +240,7 @@
                 {
                     "name": "Vance Lucas",
                     "email": "vance@vancelucas.com",
-                    "homepage": "http://www.vancelucas.com",
-                    "role": "Developer"
+                    "homepage": "http://www.vancelucas.com"
                 }
             ],
             "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
@@ -246,14 +250,14 @@
                 "env",
                 "environment"
             ],
-            "time": "2014-01-31 16:18:39"
+            "time": "2014-10-16 14:50:21"
         },
         {
             "name": "wordpress",
-            "version": "4.0",
+            "version": "4.1.1",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.0.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -268,12 +272,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-cli/php-cli-tools.git",
-                "reference": "b2b1dfe18f5c79070daf73921996bc1299e42445"
+                "reference": "228e8c1300675313e519b4195783aaa1a1a020bf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/b2b1dfe18f5c79070daf73921996bc1299e42445",
-                "reference": "b2b1dfe18f5c79070daf73921996bc1299e42445",
+                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/228e8c1300675313e519b4195783aaa1a1a020bf",
+                "reference": "228e8c1300675313e519b4195783aaa1a1a020bf",
                 "shasum": ""
             },
             "require": {
@@ -310,7 +314,7 @@
                 "cli",
                 "console"
             ],
-            "time": "2014-09-10 12:36:54"
+            "time": "2015-02-27 22:11:29"
         },
         {
             "name": "wp-cli/wp-cli",
@@ -360,6 +364,27 @@
             "time": "2013-06-15 08:46:01"
         },
         {
+            "name": "wpackagist-plugin/disqus-comment-system",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/disqus-comment-system/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/disqus-comment-system/",
+            "time": "2014-12-09 00:15:49"
+        },
+        {
             "name": "wpackagist-plugin/fd-footnotes",
             "version": "dev-trunk",
             "source": {
@@ -369,19 +394,16 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/fd-footnotes.zip",
+                "url": "https://downloads.wordpress.org/plugin/fd-footnotes.zip",
                 "reference": null,
                 "shasum": null
             },
             "require": {
                 "composer/installers": "~1.0"
             },
-            "replace": {
-                "wpackagist/fd-footnotes": "self.version"
-            },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/fd-footnotes/",
-            "time": "2013-12-13 17:50:43"
+            "homepage": "https://wordpress.org/plugins/fd-footnotes/",
+            "time": "2015-02-05 17:46:28"
         },
         {
             "name": "wpackagist-plugin/jetpack",
@@ -393,31 +415,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/jetpack.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "replace": {
-                "wpackagist/jetpack": "self.version"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/jetpack/",
-            "time": "2014-08-27 22:52:55"
-        },
-        {
-            "name": "wpackagist/disqus-comment-system",
-            "version": "2.77",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/disqus-comment-system/",
-                "reference": "tags/2.77"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/disqus-comment-system.2.77.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -425,31 +423,12 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/disqus-comment-system/"
+            "homepage": "https://wordpress.org/plugins/jetpack/",
+            "time": "2015-02-19 16:59:40"
         },
         {
-            "name": "wpackagist/flare",
-            "version": "1.2.7",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/flare/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/flare.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/flare/"
-        },
-        {
-            "name": "wpackagist/social-networks-auto-poster-facebook-twitter-g",
-            "version": "3.4.3",
+            "name": "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g",
+            "version": "dev-trunk",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/social-networks-auto-poster-facebook-twitter-g/",
@@ -457,7 +436,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/social-networks-auto-poster-facebook-twitter-g.zip",
+                "url": "https://downloads.wordpress.org/plugin/social-networks-auto-poster-facebook-twitter-g.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -465,39 +444,20 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/"
+            "homepage": "https://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/",
+            "time": "2015-03-11 22:54:10"
         },
         {
-            "name": "wpackagist/stagtools",
-            "version": "1.2.6",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/stagtools/",
-                "reference": "tags/1.2.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/stagtools.1.2.6.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/stagtools/"
-        },
-        {
-            "name": "wpackagist/wp-markdown",
+            "name": "wpackagist-plugin/stagtools",
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-markdown/",
+                "url": "http://plugins.svn.wordpress.org/stagtools/",
                 "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/wp-markdown.zip",
+                "url": "https://downloads.wordpress.org/plugin/stagtools.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -505,20 +465,20 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/wp-markdown/",
-            "time": "2014-04-09 16:42:52"
+            "homepage": "https://wordpress.org/plugins/stagtools/",
+            "time": "2014-06-23 09:34:29"
         },
         {
-            "name": "wpackagist/yet-another-related-posts-plugin",
-            "version": "4.2.4",
+            "name": "wpackagist-plugin/yet-another-related-posts-plugin",
+            "version": "dev-trunk",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/yet-another-related-posts-plugin/",
-                "reference": "tags/4.2.4"
+                "reference": "trunk"
             },
             "dist": {
                 "type": "zip",
-                "url": "http://downloads.wordpress.org/plugin/yet-another-related-posts-plugin.4.2.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/yet-another-related-posts-plugin.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -526,7 +486,8 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "http://wordpress.org/plugins/yet-another-related-posts-plugin/"
+            "homepage": "https://wordpress.org/plugins/yet-another-related-posts-plugin/",
+            "time": "2014-09-23 21:41:51"
         }
     ],
     "packages-dev": [],
@@ -534,13 +495,17 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "wp-cli/php-cli-tools": 20,
+        "wpackagist-plugin/disqus-comment-system": 20,
         "wpackagist-plugin/fd-footnotes": 20,
         "wpackagist-plugin/jetpack": 20,
-        "wpackagist/wp-markdown": 20,
+        "wpackagist-plugin/stagtools": 20,
+        "wpackagist-plugin/yet-another-related-posts-plugin": 20,
+        "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g": 20,
         "thoughtsatire/theme": 20,
         "geleyi/social-networks-poster": 20
     },
     "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.2"
     },
