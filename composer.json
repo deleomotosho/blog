@@ -1,81 +1,56 @@
 {
-    "name": "thoughtsatire",
-    "type": "project",
-    "description": "Thought Satire: Like the layers of an onion, under the first lie is another, and under that another, and they all make you cry.",
-    "homepage": "http://thoughtsatire.com",
-
-    "authors": [
+  "name": "deleomotosho/blog",
+  "type": "project",
+  "description": "Dele Omotosho: My personal bog and take on stuff",
+  "homepage": "http://deleomotosho.com",
+  "authors": [
         {
             "name": "Dele Omotosho",
-            "email": "delomos@gmail.com",
-            "homepage": "https://github.com/thoughtsatire"
-        }
+            "email": "dele@geleyi.com",
+            "homepage": "https://github.com/deleomotosho"
+        }   
     ],
+  
+  "config": {
+    "preferred-install": "dist"
+  },
 
-    "autoload": {
-        "psr-0": {
-            "Bedrock\\Installer": "scripts"
-        }
+  "repositories": [
+    {"type": "composer","url": "http://wpackagist.org"},
+    {"type": "vcs", "url": "git@bitbucket.org:geleyi/ink.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:geleyi/ink-child.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:geleyi/premium-seo-pack.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:geleyi/social-networks-poster.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:geleyi/stag-envato-updater.git"}
+  ],
+
+  "require": {
+    "php": ">=5.5",
+    "composer/installers": "~1.0.12",
+    "vlucas/phpdotenv": "^2.0.1",
+    "johnpbloch/wordpress": "4.3.*",
+
+    "wpackagist-plugin/stag-custom-sidebars": "dev-trunk",
+    "wpackagist-plugin/fd-footnotes": "dev-trunk",
+    "wpackagist-plugin/stagtools": "dev-trunk",
+    "wpackagist-plugin/jetpack": "dev-trunk",
+    "wpackagist-plugin/send-email-only-on-reply-to-my-comment": "dev-trunk",
+    "wpackagist-plugin/yet-another-related-posts-plugin": "dev-trunk",
+    "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g": "dev-trunk",
+    "wpackagist-plugin/subscribe-to-double-opt-in-comments": "dev-trunk",
+
+    "geleyi/ink": "dev-master",
+    "geleyi/ink-child": "dev-master",
+    "geleyi/social-networks-poster": "dev-master",
+    "geleyi/premium-seo-pack": "dev-master",
+    "geleyi/stag-envato-updater": "dev-master"
+  },
+  "extra": {
+    "installer-paths": {
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
+      "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
-
-    "scripts": {
-        "post-root-package-install": ["Bedrock\\Installer::addSalts"]
-    },
-
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "http://wpackagist.org"
-        },
-        {
-            "type": "package",
-            "package": {	
-                "name": "wordpress",
-                "version": "4.1.1",
-                "type": "webroot",
-                "dist": {
-                    "type": "zip",
-                    "url": "https://github.com/WordPress/WordPress/archive/4.1.1.zip"
-                },
-                "require": {
-                    "fancyguy/webroot-installer": "1.1.0"
-                }
-            }
-        },
-
-        {"type": "vcs", "url": "git@github.com:thoughtsatire/blog-theme.git"},
-        {"type": "vcs", "url": "git@bitbucket.org:geleyi/social-networks-poster.git"}
-
-    ],
-
-    "require": {
-        "php": ">=5.3.2",
-        "wordpress": "4.1.*",
-        "fancyguy/webroot-installer": "1.1.0",
-        "composer/installers": "v1.0.6",
-        "wp-cli/php-cli-tools": "dev-master",
-        "wp-cli/wp-cli": "*",
-        "vlucas/phpdotenv": "~1.0.5",
-
-        "wpackagist-plugin/disqus-comment-system": "dev-trunk",
-        "wpackagist-plugin/fd-footnotes": "dev-trunk",
-        "wpackagist-plugin/jetpack": "dev-trunk",
-        "wpackagist-plugin/stagtools": "dev-trunk",
-        "wpackagist-plugin/yet-another-related-posts-plugin": "dev-trunk",
-        "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g": "dev-trunk",
-
-        "thoughtsatire/theme": "dev-master",
-        "geleyi/social-networks-poster": "dev-master"
-
-    },
-
-    "extra": {
-        "installer-paths": {
-            "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
-            "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
-            "web/app/themes/{$name}/": ["type:wordpress-theme"]
-        },
-        "webroot-dir": "web/wp",
-        "webroot-package": "wordpress"
-    }
+    "wordpress-install-dir": "web/wp"
+  }
 }

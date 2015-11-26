@@ -1,35 +1,40 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0b923de92f4abdb910a99b373e073c3e",
+    "hash": "7b49d3416e1808b57473a0ed3b322775",
+    "content-hash": "5606dbcb1cb57880e266b98905079ec8",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.6",
+            "version": "v1.0.22",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "b3bd071ea114a57212c75aa6a2eef5cfe0cc798f"
+                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/b3bd071ea114a57212c75aa6a2eef5cfe0cc798f",
-                "reference": "b3bd071ea114a57212c75aa6a2eef5cfe0cc798f",
+                "url": "https://api.github.com/repos/composer/installers/zipball/bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046",
                 "shasum": ""
             },
+            "require": {
+                "composer-plugin-api": "1.0.0"
+            },
             "replace": {
+                "roundcube/plugin-installer": "*",
                 "shama/baton": "*"
             },
             "require-dev": {
                 "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "3.7.*"
+                "phpunit/phpunit": "4.1.*"
             },
-            "type": "composer-installer",
+            "type": "composer-plugin",
             "extra": {
-                "class": "Composer\\Installers\\Installer",
+                "class": "Composer\\Installers\\Plugin",
                 "branch-alias": {
                     "dev-master": "1.0-dev"
                 }
@@ -47,79 +52,100 @@
                 {
                     "name": "Kyle Robinson Young",
                     "email": "kyle@dontkry.com",
-                    "homepage": "https://github.com/shama",
-                    "role": "Developer"
+                    "homepage": "https://github.com/shama"
                 }
             ],
             "description": "A multi-framework Composer library installer",
             "homepage": "http://composer.github.com/installers/",
             "keywords": [
-                "TYPO3 CMS",
-                "TYPO3 Flow",
-                "TYPO3 Neos",
+                "Craft",
+                "Dolibarr",
+                "Hurad",
+                "MODX Evo",
+                "OXID",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
                 "agl",
+                "aimeos",
+                "annotatecms",
+                "bitrix",
                 "cakephp",
+                "chef",
                 "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
                 "drupal",
+                "elgg",
                 "fuelphp",
+                "grav",
                 "installer",
                 "joomla",
                 "kohana",
                 "laravel",
-                "li3",
                 "lithium",
+                "magento",
                 "mako",
+                "mediawiki",
                 "modulework",
+                "moodle",
                 "phpbb",
+                "piwik",
                 "ppi",
+                "puppet",
+                "roundcube",
+                "shopware",
                 "silverstripe",
                 "symfony",
+                "typo3",
                 "wordpress",
-                "zend"
+                "zend",
+                "zikula"
             ],
-            "time": "2013-08-20 04:37:09"
+            "time": "2015-10-29 23:28:48"
         },
         {
-            "name": "fancyguy/webroot-installer",
-            "version": "1.1.0",
+            "name": "geleyi/ink",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/fancyguy/webroot-installer.git",
-                "reference": "a2d5c2e149d837e5580a62a91d3c91577aa30d28"
+                "url": "git@bitbucket.org:geleyi/ink.git",
+                "reference": "8a41daa5ed4d0dfcd365d59fcd8f96d2543a3b8c"
             },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/fancyguy/webroot-installer/zipball/a2d5c2e149d837e5580a62a91d3c91577aa30d28",
-                "reference": "a2d5c2e149d837e5580a62a91d3c91577aa30d28",
-                "shasum": ""
+            "require": {
+                "composer/installers": "~1.0.0"
             },
-            "require-dev": {
-                "composer/composer": "1.0.*@dev",
-                "phpunit/phpunit": "3.7.*"
+            "type": "wordpress-theme",
+            "time": "2015-04-01 02:54:41"
+        },
+        {
+            "name": "geleyi/ink-child",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:geleyi/ink-child.git",
+                "reference": "780df596dae50dae11b1dc679bf19bc09dad5592"
             },
-            "type": "composer-installer",
-            "extra": {
-                "class": "FancyGuy\\Composer\\WebrootInstaller"
+            "require": {
+                "composer/installers": "~1.0.0"
             },
-            "autoload": {
-                "psr-0": {
-                    "FancyGuy\\Composer\\": "src/"
-                }
+            "type": "wordpress-theme",
+            "time": "2014-08-11 03:08:30"
+        },
+        {
+            "name": "geleyi/premium-seo-pack",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:geleyi/premium-seo-pack.git",
+                "reference": "62ba70dddf1a12ffef4d428b5694cfa97d7ddf20"
             },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Steve Buzonas",
-                    "email": "steve@fancyguy.com",
-                    "homepage": "http://www.stevebuzonas.com"
-                }
-            ],
-            "description": "A composer installer for libraries that live in an application webroot.",
-            "homepage": "http://fancyguy.github.com/webroot-installer/",
-            "time": "2013-03-15 17:51:14"
+            "require": {
+                "composer/installers": "~1.0.0"
+            },
+            "type": "wordpress-plugin",
+            "time": "2015-11-26 18:22:19"
         },
         {
             "name": "geleyi/social-networks-poster",
@@ -136,87 +162,120 @@
             "time": "2014-09-07 04:41:07"
         },
         {
-            "name": "mustache/mustache",
-            "version": "v2.3.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bobthecow/mustache.php.git",
-                "reference": "3ef28e14e3ab2cc07e26707b7fc5fa741a699173"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bobthecow/mustache.php/zipball/3ef28e14e3ab2cc07e26707b7fc5fa741a699173",
-                "reference": "3ef28e14e3ab2cc07e26707b7fc5fa741a699173",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Mustache": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Justin Hileman",
-                    "email": "justin@justinhileman.info",
-                    "homepage": "http://justinhileman.com"
-                }
-            ],
-            "description": "A Mustache implementation in PHP.",
-            "homepage": "https://github.com/bobthecow/mustache.php",
-            "keywords": [
-                "mustache",
-                "templating"
-            ],
-            "time": "2013-04-25 15:23:30"
-        },
-        {
-            "name": "thoughtsatire/theme",
+            "name": "geleyi/stag-envato-updater",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/thoughtsatire/blog-theme.git",
-                "reference": "31f6498c88a315ca739aa56d42546a5e4fec1347"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/thoughtsatire/blog-theme/zipball/31f6498c88a315ca739aa56d42546a5e4fec1347",
-                "reference": "31f6498c88a315ca739aa56d42546a5e4fec1347",
-                "shasum": ""
+                "url": "git@bitbucket.org:geleyi/stag-envato-updater.git",
+                "reference": "bcc90ff2fac4100ac886c285df61cb9d1aa5fd64"
             },
             "require": {
                 "composer/installers": "~1.0.0"
             },
-            "type": "wordpress-theme",
-            "support": {
-                "source": "https://github.com/thoughtsatire/blog-theme/tree/master",
-                "issues": "https://github.com/thoughtsatire/blog-theme/issues"
-            },
-            "time": "2015-03-11 19:26:12"
+            "type": "wordpress-plugin",
+            "time": "2014-06-14 05:42:23"
         },
         {
-            "name": "vlucas/phpdotenv",
-            "version": "v1.0.9",
+            "name": "johnpbloch/wordpress",
+            "version": "4.3.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "56c252d48dce336da97926591aed71805203815b"
+                "url": "https://github.com/johnpbloch/wordpress.git",
+                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/56c252d48dce336da97926591aed71805203815b",
-                "reference": "56c252d48dce336da97926591aed71805203815b",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
+                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
                 "shasum": ""
             },
             "require": {
+                "johnpbloch/wordpress-core-installer": "~0.2",
                 "php": ">=5.3.2"
+            },
+            "type": "wordpress-core",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms"
+            ],
+            "time": "2015-09-15 15:01:23"
+        },
+        {
+            "name": "johnpbloch/wordpress-core-installer",
+            "version": "0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "reference": "a04c2c383ef13aae077f36799ed2eafdebd618d2",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "conflict": {
+                "composer/installers": "<1.0.6"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "johnpbloch\\Composer\\WordPressCorePlugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "johnpbloch\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "John P. Bloch",
+                    "email": "me@johnpbloch.com"
+                }
+            ],
+            "description": "A custom installer to handle deploying WordPress with composer",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2015-06-11 15:15:30"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "c10040e0df17d2ee88e9212b50cbe9319e878f59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/c10040e0df17d2ee88e9212b50cbe9319e878f59",
+                "reference": "c10040e0df17d2ee88e9212b50cbe9319e878f59",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
             },
             "require-dev": {
                 "phpunit/phpunit": "~4.0"
@@ -224,12 +283,12 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-master": "2.1-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Dotenv": "src/"
+                "psr-4": {
+                    "Dotenv\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -250,139 +309,7 @@
                 "env",
                 "environment"
             ],
-            "time": "2014-10-16 14:50:21"
-        },
-        {
-            "name": "wordpress",
-            "version": "4.1.1",
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.1.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "fancyguy/webroot-installer": "1.1.0"
-            },
-            "type": "webroot"
-        },
-        {
-            "name": "wp-cli/php-cli-tools",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wp-cli/php-cli-tools.git",
-                "reference": "228e8c1300675313e519b4195783aaa1a1a020bf"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/php-cli-tools/zipball/228e8c1300675313e519b4195783aaa1a1a020bf",
-                "reference": "228e8c1300675313e519b4195783aaa1a1a020bf",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">= 5.3.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "cli": "lib/"
-                },
-                "files": [
-                    "lib/cli/cli.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "James Logsdon",
-                    "email": "jlogsdon@php.net",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Daniel Bachhuber",
-                    "email": "daniel@handbuilt.co",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "Console utilities for PHP",
-            "homepage": "http://github.com/wp-cli/php-cli-tools",
-            "keywords": [
-                "cli",
-                "console"
-            ],
-            "time": "2015-02-27 22:11:29"
-        },
-        {
-            "name": "wp-cli/wp-cli",
-            "version": "v0.10.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/wp-cli/wp-cli.git",
-                "reference": "65a2dabc95193c5026f3dd8707fff4eb21846400"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/wp-cli/wp-cli/zipball/65a2dabc95193c5026f3dd8707fff4eb21846400",
-                "reference": "65a2dabc95193c5026f3dd8707fff4eb21846400",
-                "shasum": ""
-            },
-            "require": {
-                "mustache/mustache": "2.3.x",
-                "php": ">=5.3.2",
-                "wp-cli/php-cli-tools": "dev-master"
-            },
-            "require-dev": {
-                "behat/behat": "2.4.*@stable",
-                "phpunit/phpunit": "3.7.x"
-            },
-            "suggest": {
-                "d11wtq/boris": "Enhanced `wp shell` functionality"
-            },
-            "bin": [
-                "bin/wp"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "WP_CLI": "php"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "A command line interface for WordPress",
-            "homepage": "http://wp-cli.org",
-            "keywords": [
-                "cli",
-                "wordpress"
-            ],
-            "time": "2013-06-15 08:46:01"
-        },
-        {
-            "name": "wpackagist-plugin/disqus-comment-system",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/disqus-comment-system/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/disqus-comment-system.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/disqus-comment-system/",
-            "time": "2014-12-09 00:15:49"
+            "time": "2015-10-28 18:53:35"
         },
         {
             "name": "wpackagist-plugin/fd-footnotes",
@@ -403,7 +330,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/fd-footnotes/",
-            "time": "2015-02-05 17:46:28"
+            "time": "2015-10-19 21:31:14"
         },
         {
             "name": "wpackagist-plugin/jetpack",
@@ -424,7 +351,28 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/",
-            "time": "2015-02-19 16:59:40"
+            "time": "2015-11-25 23:02:55"
+        },
+        {
+            "name": "wpackagist-plugin/send-email-only-on-reply-to-my-comment",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/send-email-only-on-reply-to-my-comment/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/send-email-only-on-reply-to-my-comment.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/send-email-only-on-reply-to-my-comment/",
+            "time": "2015-03-03 15:52:58"
         },
         {
             "name": "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g",
@@ -445,7 +393,28 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/",
-            "time": "2015-03-11 22:54:10"
+            "time": "2015-11-24 13:57:50"
+        },
+        {
+            "name": "wpackagist-plugin/stag-custom-sidebars",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/stag-custom-sidebars/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/stag-custom-sidebars.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/stag-custom-sidebars/",
+            "time": "2015-04-30 07:04:51"
         },
         {
             "name": "wpackagist-plugin/stagtools",
@@ -466,7 +435,28 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/stagtools/",
-            "time": "2014-06-23 09:34:29"
+            "time": "2015-08-21 16:08:13"
+        },
+        {
+            "name": "wpackagist-plugin/subscribe-to-double-opt-in-comments",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/subscribe-to-double-opt-in-comments/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/subscribe-to-double-opt-in-comments.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/subscribe-to-double-opt-in-comments/",
+            "time": "2015-09-08 18:20:49"
         },
         {
             "name": "wpackagist-plugin/yet-another-related-posts-plugin",
@@ -487,27 +477,31 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/yet-another-related-posts-plugin/",
-            "time": "2014-09-23 21:41:51"
+            "time": "2015-05-14 21:00:52"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wp-cli/php-cli-tools": 20,
-        "wpackagist-plugin/disqus-comment-system": 20,
+        "wpackagist-plugin/stag-custom-sidebars": 20,
         "wpackagist-plugin/fd-footnotes": 20,
-        "wpackagist-plugin/jetpack": 20,
         "wpackagist-plugin/stagtools": 20,
+        "wpackagist-plugin/jetpack": 20,
+        "wpackagist-plugin/send-email-only-on-reply-to-my-comment": 20,
         "wpackagist-plugin/yet-another-related-posts-plugin": 20,
         "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g": 20,
-        "thoughtsatire/theme": 20,
-        "geleyi/social-networks-poster": 20
+        "wpackagist-plugin/subscribe-to-double-opt-in-comments": 20,
+        "geleyi/ink": 20,
+        "geleyi/ink-child": 20,
+        "geleyi/social-networks-poster": 20,
+        "geleyi/premium-seo-pack": 20,
+        "geleyi/stag-envato-updater": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=5.3.2"
+        "php": ">=5.5"
     },
     "platform-dev": []
 }

@@ -1,8 +1,0 @@
-- name: load beanstalkd
-  supervisorctl: name=beanstalkd state=started
-
-- name: start cleanqueue
-  supervisorctl: name=cleanqueue state=started
-
-- name: restart php-fpm
-  service: name=php5-fpm state=started

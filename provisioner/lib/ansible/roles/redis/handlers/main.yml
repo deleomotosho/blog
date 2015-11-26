@@ -1,2 +1,0 @@
-- name: reload redis-commander
-  supervisorctl: name=redis state=started

@@ -11,7 +11,7 @@ set :stage, :production
 server 'dele.webfactional.com', user: 'dele', roles: %w{web app db}
 
 set :log_level, :debug
-set :deploy_to, "/home/dele/webapps/thoughtsatire"
+set :deploy_to, "/home/dele/webapps/deleomotosho_com"
 
 # you can set custom ssh options
 # it's possible to pass any option but you need to keep in mind that net/ssh understand limited list of options
