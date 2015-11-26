@@ -38,6 +38,8 @@
     "wpackagist-plugin/yet-another-related-posts-plugin": "dev-trunk",
     "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g": "dev-trunk",
     "wpackagist-plugin/subscribe-to-double-opt-in-comments": "dev-trunk",
+    "wpackagist-plugin/wp-ajaxify-comments": "dev-trunk",
+    "wpackagist-plugin/inline-comments": "dev-trunk",
 
     "geleyi/ink": "dev-master",
     "geleyi/ink-child": "dev-master",

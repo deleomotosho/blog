@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7b49d3416e1808b57473a0ed3b322775",
-    "content-hash": "5606dbcb1cb57880e266b98905079ec8",
+    "hash": "6f9fd434ee2b129f1585c8510c1ddb5b",
+    "content-hash": "f3ed1cf57bbf94d534f845e5b5642838",
     "packages": [
         {
             "name": "composer/installers",
@@ -333,6 +333,27 @@
             "time": "2015-10-19 21:31:14"
         },
         {
+            "name": "wpackagist-plugin/inline-comments",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/inline-comments/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/inline-comments.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/inline-comments/",
+            "time": "2015-11-26 00:59:47"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "dev-trunk",
             "source": {
@@ -459,6 +480,27 @@
             "time": "2015-09-08 18:20:49"
         },
         {
+            "name": "wpackagist-plugin/wp-ajaxify-comments",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-ajaxify-comments/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-ajaxify-comments.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-ajaxify-comments/",
+            "time": "2015-11-24 21:02:13"
+        },
+        {
             "name": "wpackagist-plugin/yet-another-related-posts-plugin",
             "version": "dev-trunk",
             "source": {
@@ -492,6 +534,8 @@
         "wpackagist-plugin/yet-another-related-posts-plugin": 20,
         "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g": 20,
         "wpackagist-plugin/subscribe-to-double-opt-in-comments": 20,
+        "wpackagist-plugin/wp-ajaxify-comments": 20,
+        "wpackagist-plugin/inline-comments": 20,
         "geleyi/ink": 20,
         "geleyi/ink-child": 20,
         "geleyi/social-networks-poster": 20,
