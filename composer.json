@@ -17,8 +17,8 @@
 
   "repositories": [
     {"type": "composer","url": "http://wpackagist.org"},
-    {"type": "vcs", "url": "git@bitbucket.org:geleyi/ink.git"},
-    {"type": "vcs", "url": "git@bitbucket.org:geleyi/ink-child.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:deleomotosho/skilt.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:deleomotosho/skilt-child.git"},
     {"type": "vcs", "url": "git@bitbucket.org:geleyi/premium-seo-pack.git"},
     {"type": "vcs", "url": "git@bitbucket.org:geleyi/social-networks-poster.git"},
     {"type": "vcs", "url": "git@bitbucket.org:geleyi/stag-envato-updater.git"}
@@ -40,9 +40,10 @@
     "wpackagist-plugin/subscribe-to-double-opt-in-comments": "dev-trunk",
     "wpackagist-plugin/wp-ajaxify-comments": "dev-trunk",
     "wpackagist-plugin/inline-comments": "dev-trunk",
+    "wpackagist-plugin/akismet": "dev-trunk",
 
-    "geleyi/ink": "dev-master",
-    "geleyi/ink-child": "dev-master",
+    "deleomotosho/skilt": "dev-master",
+    "deleomotosho/skilt-child": "dev-master",
     "geleyi/social-networks-poster": "dev-master",
     "geleyi/premium-seo-pack": "dev-master",
     "geleyi/stag-envato-updater": "dev-master"
