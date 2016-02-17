@@ -14,13 +14,11 @@
   "config": {
     "preferred-install": "dist"
   },
-
   "repositories": [
     {"type": "composer","url": "http://wpackagist.org"},
-    {"type": "vcs", "url": "git@bitbucket.org:deleomotosho/skilt.git"},
-    {"type": "vcs", "url": "git@bitbucket.org:deleomotosho/skilt-child.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:deleomotosho/carbon.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:deleomotosho/carbon-child.git"},
     {"type": "vcs", "url": "git@bitbucket.org:geleyi/premium-seo-pack.git"},
-    {"type": "vcs", "url": "git@bitbucket.org:geleyi/social-networks-poster.git"},
     {"type": "vcs", "url": "git@bitbucket.org:geleyi/stag-envato-updater.git"}
   ],
 
@@ -28,7 +26,7 @@
     "php": ">=5.5",
     "composer/installers": "~1.0.12",
     "vlucas/phpdotenv": "^2.0.1",
-    "johnpbloch/wordpress": "4.3.*",
+    "johnpbloch/wordpress": "4.4.*",
 
     "wpackagist-plugin/stag-custom-sidebars": "dev-trunk",
     "wpackagist-plugin/fd-footnotes": "dev-trunk",
@@ -36,15 +34,16 @@
     "wpackagist-plugin/jetpack": "dev-trunk",
     "wpackagist-plugin/send-email-only-on-reply-to-my-comment": "dev-trunk",
     "wpackagist-plugin/yet-another-related-posts-plugin": "dev-trunk",
-    "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g": "dev-trunk",
     "wpackagist-plugin/subscribe-to-double-opt-in-comments": "dev-trunk",
     "wpackagist-plugin/wp-ajaxify-comments": "dev-trunk",
     "wpackagist-plugin/inline-comments": "dev-trunk",
     "wpackagist-plugin/akismet": "dev-trunk",
+    "wpackagist-plugin/wp-retina": "dev-trunk",
+    "wpackagist-plugin/subtitles": "dev-trunk",
+    
+    "deleomotosho/carbon": "dev-master",
+    "deleomotosho/carbon-child": "dev-master",
 
-    "deleomotosho/skilt": "dev-master",
-    "deleomotosho/skilt-child": "dev-master",
-    "geleyi/social-networks-poster": "dev-master",
     "geleyi/premium-seo-pack": "dev-master",
     "geleyi/stag-envato-updater": "dev-master"
   },

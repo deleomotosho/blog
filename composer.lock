@@ -4,25 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6f9fd434ee2b129f1585c8510c1ddb5b",
-    "content-hash": "f3ed1cf57bbf94d534f845e5b5642838",
+    "hash": "a2981f478eb414a1f1eb8d0321ad076d",
+    "content-hash": "c0f1e33408661e90f233dbd043553ad6",
     "packages": [
         {
             "name": "composer/installers",
-            "version": "v1.0.22",
+            "version": "v1.0.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046"
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/bd9b14f094c89c8b5804a4e41edeb7853bb85046",
-                "reference": "bd9b14f094c89c8b5804a4e41edeb7853bb85046",
+                "url": "https://api.github.com/repos/composer/installers/zipball/6213d900e92647831f7a406d5c530ea1f3d4360e",
+                "reference": "6213d900e92647831f7a406d5c530ea1f3d4360e",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
             },
             "replace": {
                 "roundcube/plugin-installer": "*",
@@ -103,35 +103,35 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-10-29 23:28:48"
+            "time": "2016-01-27 12:54:22"
         },
         {
-            "name": "geleyi/ink",
+            "name": "deleomotosho/carbon",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:geleyi/ink.git",
-                "reference": "8a41daa5ed4d0dfcd365d59fcd8f96d2543a3b8c"
+                "url": "git@bitbucket.org:deleomotosho/carbon.git",
+                "reference": "8d72e60816a53f3dad383e74a23a88a75ec9c9a9"
             },
             "require": {
                 "composer/installers": "~1.0.0"
             },
             "type": "wordpress-theme",
-            "time": "2015-04-01 02:54:41"
+            "time": "2016-02-17 01:48:14"
         },
         {
-            "name": "geleyi/ink-child",
+            "name": "deleomotosho/carbon-child",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:geleyi/ink-child.git",
-                "reference": "780df596dae50dae11b1dc679bf19bc09dad5592"
+                "url": "git@bitbucket.org:deleomotosho/carbon-child.git",
+                "reference": "15bac44d78fefc70f23a56333514204b14ff6b2b"
             },
             "require": {
                 "composer/installers": "~1.0.0"
             },
             "type": "wordpress-theme",
-            "time": "2014-08-11 03:08:30"
+            "time": "2016-02-16 23:36:57"
         },
         {
             "name": "geleyi/premium-seo-pack",
@@ -139,27 +139,13 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:geleyi/premium-seo-pack.git",
-                "reference": "62ba70dddf1a12ffef4d428b5694cfa97d7ddf20"
+                "reference": "002067a859e267e369eaa8993a235f35c658a516"
             },
             "require": {
                 "composer/installers": "~1.0.0"
             },
             "type": "wordpress-plugin",
-            "time": "2015-11-26 18:22:19"
-        },
-        {
-            "name": "geleyi/social-networks-poster",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:geleyi/social-networks-poster.git",
-                "reference": "3bab495dbace579e50e8ec91d3722be0cd890133"
-            },
-            "require": {
-                "composer/installers": "~1.0.0"
-            },
-            "type": "wordpress-plugin",
-            "time": "2014-09-07 04:41:07"
+            "time": "2016-02-10 00:40:43"
         },
         {
             "name": "geleyi/stag-envato-updater",
@@ -177,16 +163,16 @@
         },
         {
             "name": "johnpbloch/wordpress",
-            "version": "4.3.1",
+            "version": "4.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/johnpbloch/wordpress.git",
-                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f"
+                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
-                "reference": "cfcf25eb42baeb7316a61c7a64e9a1ab3e291f2f",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/fe9320de0793602084c600e22c0c5e0bb601a264",
+                "reference": "fe9320de0793602084c600e22c0c5e0bb601a264",
                 "shasum": ""
             },
             "require": {
@@ -210,7 +196,7 @@
                 "blog",
                 "cms"
             ],
-            "time": "2015-09-15 15:01:23"
+            "time": "2016-02-02 17:16:14"
         },
         {
             "name": "johnpbloch/wordpress-core-installer",
@@ -262,28 +248,28 @@
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.1.0",
+            "version": "v2.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "c10040e0df17d2ee88e9212b50cbe9319e878f59"
+                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/c10040e0df17d2ee88e9212b50cbe9319e878f59",
-                "reference": "c10040e0df17d2ee88e9212b50cbe9319e878f59",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/9caf304153dc2288e4970caec6f1f3b3bc205412",
+                "reference": "9caf304153dc2288e4970caec6f1f3b3bc205412",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.0"
+                "phpunit/phpunit": "^4.8|^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.2-dev"
                 }
             },
             "autoload": {
@@ -309,7 +295,28 @@
                 "env",
                 "environment"
             ],
-            "time": "2015-10-28 18:53:35"
+            "time": "2015-12-29 15:10:30"
+        },
+        {
+            "name": "wpackagist-plugin/akismet",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/akismet/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/akismet/",
+            "time": "2016-02-11 18:36:34"
         },
         {
             "name": "wpackagist-plugin/fd-footnotes",
@@ -330,7 +337,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/fd-footnotes/",
-            "time": "2015-10-19 21:31:14"
+            "time": "2016-01-15 16:26:37"
         },
         {
             "name": "wpackagist-plugin/inline-comments",
@@ -351,7 +358,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/inline-comments/",
-            "time": "2015-11-26 00:59:47"
+            "time": "2016-01-11 02:09:53"
         },
         {
             "name": "wpackagist-plugin/jetpack",
@@ -372,7 +379,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/jetpack/",
-            "time": "2015-11-25 23:02:55"
+            "time": "2016-01-21 21:00:34"
         },
         {
             "name": "wpackagist-plugin/send-email-only-on-reply-to-my-comment",
@@ -396,27 +403,6 @@
             "time": "2015-03-03 15:52:58"
         },
         {
-            "name": "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/social-networks-auto-poster-facebook-twitter-g/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/social-networks-auto-poster-facebook-twitter-g.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/",
-            "time": "2015-11-24 13:57:50"
-        },
-        {
             "name": "wpackagist-plugin/stag-custom-sidebars",
             "version": "dev-trunk",
             "source": {
@@ -435,7 +421,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/stag-custom-sidebars/",
-            "time": "2015-04-30 07:04:51"
+            "time": "2015-12-17 06:38:55"
         },
         {
             "name": "wpackagist-plugin/stagtools",
@@ -480,6 +466,27 @@
             "time": "2015-09-08 18:20:49"
         },
         {
+            "name": "wpackagist-plugin/subtitles",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/subtitles/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/subtitles.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/subtitles/",
+            "time": "2015-12-09 16:41:31"
+        },
+        {
             "name": "wpackagist-plugin/wp-ajaxify-comments",
             "version": "dev-trunk",
             "source": {
@@ -498,7 +505,28 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-ajaxify-comments/",
-            "time": "2015-11-24 21:02:13"
+            "time": "2015-12-31 12:44:51"
+        },
+        {
+            "name": "wpackagist-plugin/wp-retina",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-retina/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-retina.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-retina/",
+            "time": "2012-04-05 08:12:37"
         },
         {
             "name": "wpackagist-plugin/yet-another-related-posts-plugin",
@@ -519,7 +547,7 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/yet-another-related-posts-plugin/",
-            "time": "2015-05-14 21:00:52"
+            "time": "2016-01-15 16:18:58"
         }
     ],
     "packages-dev": [],
@@ -532,13 +560,14 @@
         "wpackagist-plugin/jetpack": 20,
         "wpackagist-plugin/send-email-only-on-reply-to-my-comment": 20,
         "wpackagist-plugin/yet-another-related-posts-plugin": 20,
-        "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g": 20,
         "wpackagist-plugin/subscribe-to-double-opt-in-comments": 20,
         "wpackagist-plugin/wp-ajaxify-comments": 20,
         "wpackagist-plugin/inline-comments": 20,
-        "geleyi/ink": 20,
-        "geleyi/ink-child": 20,
-        "geleyi/social-networks-poster": 20,
+        "wpackagist-plugin/akismet": 20,
+        "wpackagist-plugin/wp-retina": 20,
+        "wpackagist-plugin/subtitles": 20,
+        "deleomotosho/carbon": 20,
+        "deleomotosho/carbon-child": 20,
         "geleyi/premium-seo-pack": 20,
         "geleyi/stag-envato-updater": 20
     },
