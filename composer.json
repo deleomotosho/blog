@@ -18,7 +18,7 @@
     {"type": "composer","url": "http://wpackagist.org"},
     {"type": "vcs", "url": "git@bitbucket.org:deleomotosho/carbon.git"},
     {"type": "vcs", "url": "git@bitbucket.org:deleomotosho/carbon-child.git"},
-    {"type": "vcs", "url": "git@bitbucket.org:geleyi/premium-seo-pack.git"},
+    {"type": "vcs", "url": "git@github.com:deleomotosho/what-im-reading.git"},
     {"type": "vcs", "url": "git@bitbucket.org:geleyi/stag-envato-updater.git"}
   ],
 
@@ -34,17 +34,18 @@
     "wpackagist-plugin/jetpack": "dev-trunk",
     "wpackagist-plugin/send-email-only-on-reply-to-my-comment": "dev-trunk",
     "wpackagist-plugin/yet-another-related-posts-plugin": "dev-trunk",
-    "wpackagist-plugin/subscribe-to-double-opt-in-comments": "dev-trunk",
     "wpackagist-plugin/wp-ajaxify-comments": "dev-trunk",
     "wpackagist-plugin/inline-comments": "dev-trunk",
     "wpackagist-plugin/akismet": "dev-trunk",
     "wpackagist-plugin/wp-retina": "dev-trunk",
     "wpackagist-plugin/subtitles": "dev-trunk",
+    "wpackagist-plugin/instagram-slider-widget": "dev-trunk",
     
     "deleomotosho/carbon": "dev-master",
     "deleomotosho/carbon-child": "dev-master",
 
-    "geleyi/premium-seo-pack": "dev-master",
+    "deleomotosho/what-im-reading": "dev-master",
+
     "geleyi/stag-envato-updater": "dev-master"
   },
   "extra": {

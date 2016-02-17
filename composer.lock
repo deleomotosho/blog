@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a2981f478eb414a1f1eb8d0321ad076d",
-    "content-hash": "c0f1e33408661e90f233dbd043553ad6",
+    "hash": "48c3654df126c3c12aeacc3edbcb09fc",
+    "content-hash": "b6d795e96c503f52714978ec49b4452c",
     "packages": [
         {
             "name": "composer/installers",
@@ -111,13 +111,13 @@
             "source": {
                 "type": "git",
                 "url": "git@bitbucket.org:deleomotosho/carbon.git",
-                "reference": "8d72e60816a53f3dad383e74a23a88a75ec9c9a9"
+                "reference": "dd84777aabcb37f2e1c5bfed2914c61f032e784c"
             },
             "require": {
                 "composer/installers": "~1.0.0"
             },
             "type": "wordpress-theme",
-            "time": "2016-02-17 01:48:14"
+            "time": "2016-02-17 16:38:31"
         },
         {
             "name": "deleomotosho/carbon-child",
@@ -134,18 +134,28 @@
             "time": "2016-02-16 23:36:57"
         },
         {
-            "name": "geleyi/premium-seo-pack",
+            "name": "deleomotosho/what-im-reading",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@bitbucket.org:geleyi/premium-seo-pack.git",
-                "reference": "002067a859e267e369eaa8993a235f35c658a516"
+                "url": "https://github.com/deleomotosho/what-im-reading.git",
+                "reference": "ef1c72a6b55027d53db5d9beb059b46b62063e58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deleomotosho/what-im-reading/zipball/ef1c72a6b55027d53db5d9beb059b46b62063e58",
+                "reference": "ef1c72a6b55027d53db5d9beb059b46b62063e58",
+                "shasum": ""
             },
             "require": {
                 "composer/installers": "~1.0.0"
             },
             "type": "wordpress-plugin",
-            "time": "2016-02-10 00:40:43"
+            "support": {
+                "source": "https://github.com/deleomotosho/what-im-reading/tree/master",
+                "issues": "https://github.com/deleomotosho/what-im-reading/issues"
+            },
+            "time": "2016-02-17 18:36:32"
         },
         {
             "name": "geleyi/stag-envato-updater",
@@ -361,6 +371,27 @@
             "time": "2016-01-11 02:09:53"
         },
         {
+            "name": "wpackagist-plugin/instagram-slider-widget",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/instagram-slider-widget/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/instagram-slider-widget.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/instagram-slider-widget/",
+            "time": "2015-06-29 20:41:24"
+        },
+        {
             "name": "wpackagist-plugin/jetpack",
             "version": "dev-trunk",
             "source": {
@@ -443,27 +474,6 @@
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/stagtools/",
             "time": "2015-08-21 16:08:13"
-        },
-        {
-            "name": "wpackagist-plugin/subscribe-to-double-opt-in-comments",
-            "version": "dev-trunk",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/subscribe-to-double-opt-in-comments/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/subscribe-to-double-opt-in-comments.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/subscribe-to-double-opt-in-comments/",
-            "time": "2015-09-08 18:20:49"
         },
         {
             "name": "wpackagist-plugin/subtitles",
@@ -560,15 +570,15 @@
         "wpackagist-plugin/jetpack": 20,
         "wpackagist-plugin/send-email-only-on-reply-to-my-comment": 20,
         "wpackagist-plugin/yet-another-related-posts-plugin": 20,
-        "wpackagist-plugin/subscribe-to-double-opt-in-comments": 20,
         "wpackagist-plugin/wp-ajaxify-comments": 20,
         "wpackagist-plugin/inline-comments": 20,
         "wpackagist-plugin/akismet": 20,
         "wpackagist-plugin/wp-retina": 20,
         "wpackagist-plugin/subtitles": 20,
+        "wpackagist-plugin/instagram-slider-widget": 20,
         "deleomotosho/carbon": 20,
         "deleomotosho/carbon-child": 20,
-        "geleyi/premium-seo-pack": 20,
+        "deleomotosho/what-im-reading": 20,
         "geleyi/stag-envato-updater": 20
     },
     "prefer-stable": false,
