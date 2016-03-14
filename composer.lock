@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "48c3654df126c3c12aeacc3edbcb09fc",
-    "content-hash": "b6d795e96c503f52714978ec49b4452c",
+    "hash": "e61a848c7b13094541e6b8c4cadc34c0",
+    "content-hash": "656f2b25388eaf26b4fc554a479d8a7d",
     "packages": [
         {
             "name": "composer/installers",
@@ -134,30 +134,6 @@
             "time": "2016-02-16 23:36:57"
         },
         {
-            "name": "deleomotosho/what-im-reading",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/deleomotosho/what-im-reading.git",
-                "reference": "ef1c72a6b55027d53db5d9beb059b46b62063e58"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/deleomotosho/what-im-reading/zipball/ef1c72a6b55027d53db5d9beb059b46b62063e58",
-                "reference": "ef1c72a6b55027d53db5d9beb059b46b62063e58",
-                "shasum": ""
-            },
-            "require": {
-                "composer/installers": "~1.0.0"
-            },
-            "type": "wordpress-plugin",
-            "support": {
-                "source": "https://github.com/deleomotosho/what-im-reading/tree/master",
-                "issues": "https://github.com/deleomotosho/what-im-reading/issues"
-            },
-            "time": "2016-02-17 18:36:32"
-        },
-        {
             "name": "geleyi/stag-envato-updater",
             "version": "dev-master",
             "source": {
@@ -170,6 +146,20 @@
             },
             "type": "wordpress-plugin",
             "time": "2014-06-14 05:42:23"
+        },
+        {
+            "name": "geleyi/wp-seo-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:geleyi/wp-seo-premium.git",
+                "reference": "c0e4260e8e05986839b899df53da163dbd9184f5"
+            },
+            "require": {
+                "composer/installers": "~1.0.0"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-03-05 04:53:41"
         },
         {
             "name": "johnpbloch/wordpress",
@@ -434,6 +424,27 @@
             "time": "2015-03-03 15:52:58"
         },
         {
+            "name": "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/social-networks-auto-poster-facebook-twitter-g/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/social-networks-auto-poster-facebook-twitter-g.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/",
+            "time": "2016-03-07 19:15:53"
+        },
+        {
             "name": "wpackagist-plugin/stag-custom-sidebars",
             "version": "dev-trunk",
             "source": {
@@ -576,10 +587,11 @@
         "wpackagist-plugin/wp-retina": 20,
         "wpackagist-plugin/subtitles": 20,
         "wpackagist-plugin/instagram-slider-widget": 20,
+        "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g": 20,
         "deleomotosho/carbon": 20,
         "deleomotosho/carbon-child": 20,
-        "deleomotosho/what-im-reading": 20,
-        "geleyi/stag-envato-updater": 20
+        "geleyi/stag-envato-updater": 20,
+        "geleyi/wp-seo-premium": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -15,11 +15,12 @@
     "preferred-install": "dist"
   },
   "repositories": [
-    {"type": "composer","url": "http://wpackagist.org"},
+    {"type": "composer","url": "https://wpackagist.org"},
     {"type": "vcs", "url": "git@bitbucket.org:deleomotosho/carbon.git"},
     {"type": "vcs", "url": "git@bitbucket.org:deleomotosho/carbon-child.git"},
     {"type": "vcs", "url": "git@github.com:deleomotosho/what-im-reading.git"},
-    {"type": "vcs", "url": "git@bitbucket.org:geleyi/stag-envato-updater.git"}
+    {"type": "vcs", "url": "git@bitbucket.org:geleyi/stag-envato-updater.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:geleyi/wp-seo-premium.git"}
   ],
 
   "require": {
@@ -40,13 +41,13 @@
     "wpackagist-plugin/wp-retina": "dev-trunk",
     "wpackagist-plugin/subtitles": "dev-trunk",
     "wpackagist-plugin/instagram-slider-widget": "dev-trunk",
+    "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g": "dev-trunk",
     
     "deleomotosho/carbon": "dev-master",
     "deleomotosho/carbon-child": "dev-master",
 
-    "deleomotosho/what-im-reading": "dev-master",
-
-    "geleyi/stag-envato-updater": "dev-master"
+    "geleyi/stag-envato-updater": "dev-master",
+    "geleyi/wp-seo-premium": "dev-master"
   },
   "extra": {
     "installer-paths": {
