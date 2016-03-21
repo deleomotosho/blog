@@ -20,6 +20,9 @@
     {"type": "vcs", "url": "git@bitbucket.org:deleomotosho/carbon-child.git"},
     {"type": "vcs", "url": "git@github.com:deleomotosho/what-im-reading.git"},
     {"type": "vcs", "url": "git@bitbucket.org:geleyi/stag-envato-updater.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:geleyi/social-auto-poster.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:geleyi/google-analytics-premium.git"},
+    {"type": "vcs", "url": "git@bitbucket.org:geleyi/optin-monster.git"},
     {"type": "vcs", "url": "git@bitbucket.org:geleyi/wp-seo-premium.git"}
   ],
 
@@ -47,6 +50,9 @@
     "deleomotosho/carbon-child": "dev-master",
 
     "geleyi/stag-envato-updater": "dev-master",
+    "geleyi/social-auto-poster": "dev-master",
+    "geleyi/google-analytics-premium": "dev-master",
+    "geleyi/optin-monster": "dev-master",
     "geleyi/wp-seo-premium": "dev-master"
   },
   "extra": {

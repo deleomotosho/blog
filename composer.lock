@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e61a848c7b13094541e6b8c4cadc34c0",
-    "content-hash": "656f2b25388eaf26b4fc554a479d8a7d",
+    "hash": "d9b9754c332cd500fa7da43c0b53104f",
+    "content-hash": "68528d7737070eb3130a9bde128650ff",
     "packages": [
         {
             "name": "composer/installers",
@@ -132,6 +132,48 @@
             },
             "type": "wordpress-theme",
             "time": "2016-02-16 23:36:57"
+        },
+        {
+            "name": "geleyi/google-analytics-premium",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:geleyi/google-analytics-premium.git",
+                "reference": "cf503eb54c7d1841a244843b02a623677e74d64c"
+            },
+            "require": {
+                "composer/installers": "~1.0.0"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-03-21 01:58:04"
+        },
+        {
+            "name": "geleyi/optin-monster",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:geleyi/optin-monster.git",
+                "reference": "330f4722609365c35913c3bddafaaba60d82d0af"
+            },
+            "require": {
+                "composer/installers": "~1.0.0"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-03-21 02:00:14"
+        },
+        {
+            "name": "geleyi/social-auto-poster",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@bitbucket.org:geleyi/social-auto-poster.git",
+                "reference": "cad03e6bfba91a15fa1b1a98e535b09eef779fa6"
+            },
+            "require": {
+                "composer/installers": "~1.0.0"
+            },
+            "type": "wordpress-plugin",
+            "time": "2016-03-21 01:28:31"
         },
         {
             "name": "geleyi/stag-envato-updater",
@@ -302,7 +344,7 @@
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/akismet/",
+                "url": "https://plugins.svn.wordpress.org/akismet/",
                 "reference": "trunk"
             },
             "dist": {
@@ -323,7 +365,7 @@
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/fd-footnotes/",
+                "url": "https://plugins.svn.wordpress.org/fd-footnotes/",
                 "reference": "trunk"
             },
             "dist": {
@@ -344,7 +386,7 @@
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/inline-comments/",
+                "url": "https://plugins.svn.wordpress.org/inline-comments/",
                 "reference": "trunk"
             },
             "dist": {
@@ -365,7 +407,7 @@
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/instagram-slider-widget/",
+                "url": "https://plugins.svn.wordpress.org/instagram-slider-widget/",
                 "reference": "trunk"
             },
             "dist": {
@@ -386,7 +428,7 @@
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/jetpack/",
+                "url": "https://plugins.svn.wordpress.org/jetpack/",
                 "reference": "trunk"
             },
             "dist": {
@@ -407,7 +449,7 @@
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/send-email-only-on-reply-to-my-comment/",
+                "url": "https://plugins.svn.wordpress.org/send-email-only-on-reply-to-my-comment/",
                 "reference": "trunk"
             },
             "dist": {
@@ -428,7 +470,7 @@
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/social-networks-auto-poster-facebook-twitter-g/",
+                "url": "https://plugins.svn.wordpress.org/social-networks-auto-poster-facebook-twitter-g/",
                 "reference": "trunk"
             },
             "dist": {
@@ -449,7 +491,7 @@
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/stag-custom-sidebars/",
+                "url": "https://plugins.svn.wordpress.org/stag-custom-sidebars/",
                 "reference": "trunk"
             },
             "dist": {
@@ -470,7 +512,7 @@
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/stagtools/",
+                "url": "https://plugins.svn.wordpress.org/stagtools/",
                 "reference": "trunk"
             },
             "dist": {
@@ -491,7 +533,7 @@
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/subtitles/",
+                "url": "https://plugins.svn.wordpress.org/subtitles/",
                 "reference": "trunk"
             },
             "dist": {
@@ -512,7 +554,7 @@
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-ajaxify-comments/",
+                "url": "https://plugins.svn.wordpress.org/wp-ajaxify-comments/",
                 "reference": "trunk"
             },
             "dist": {
@@ -533,7 +575,7 @@
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-retina/",
+                "url": "https://plugins.svn.wordpress.org/wp-retina/",
                 "reference": "trunk"
             },
             "dist": {
@@ -554,7 +596,7 @@
             "version": "dev-trunk",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/yet-another-related-posts-plugin/",
+                "url": "https://plugins.svn.wordpress.org/yet-another-related-posts-plugin/",
                 "reference": "trunk"
             },
             "dist": {
@@ -591,6 +633,9 @@
         "deleomotosho/carbon": 20,
         "deleomotosho/carbon-child": 20,
         "geleyi/stag-envato-updater": 20,
+        "geleyi/social-auto-poster": 20,
+        "geleyi/google-analytics-premium": 20,
+        "geleyi/optin-monster": 20,
         "geleyi/wp-seo-premium": 20
     },
     "prefer-stable": false,
