@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d9b9754c332cd500fa7da43c0b53104f",
-    "content-hash": "68528d7737070eb3130a9bde128650ff",
+    "hash": "a18b53a0d5a3aa1819aebe0fa89a3193",
+    "content-hash": "9aad1a18a11477d0a42f08a225000809",
     "packages": [
         {
             "name": "composer/installers",
@@ -160,20 +160,6 @@
             },
             "type": "wordpress-plugin",
             "time": "2016-03-21 02:00:14"
-        },
-        {
-            "name": "geleyi/social-auto-poster",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "git@bitbucket.org:geleyi/social-auto-poster.git",
-                "reference": "cad03e6bfba91a15fa1b1a98e535b09eef779fa6"
-            },
-            "require": {
-                "composer/installers": "~1.0.0"
-            },
-            "type": "wordpress-plugin",
-            "time": "2016-03-21 01:28:31"
         },
         {
             "name": "geleyi/stag-envato-updater",
@@ -571,6 +557,27 @@
             "time": "2015-12-31 12:44:51"
         },
         {
+            "name": "wpackagist-plugin/wp-markdown-editor",
+            "version": "dev-trunk",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-markdown-editor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-markdown-editor.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-markdown-editor/",
+            "time": "2015-11-19 09:24:21"
+        },
+        {
             "name": "wpackagist-plugin/wp-retina",
             "version": "dev-trunk",
             "source": {
@@ -629,11 +636,11 @@
         "wpackagist-plugin/wp-retina": 20,
         "wpackagist-plugin/subtitles": 20,
         "wpackagist-plugin/instagram-slider-widget": 20,
+        "wpackagist-plugin/wp-markdown-editor": 20,
         "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g": 20,
         "deleomotosho/carbon": 20,
         "deleomotosho/carbon-child": 20,
         "geleyi/stag-envato-updater": 20,
-        "geleyi/social-auto-poster": 20,
         "geleyi/google-analytics-premium": 20,
         "geleyi/optin-monster": 20,
         "geleyi/wp-seo-premium": 20
