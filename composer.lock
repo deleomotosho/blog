@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a18b53a0d5a3aa1819aebe0fa89a3193",
-    "content-hash": "9aad1a18a11477d0a42f08a225000809",
+    "hash": "3e6e1826a80ab8e07268b4da8a26c66f",
+    "content-hash": "e35d63aac683d5cf42ebb14906f04be1",
     "packages": [
         {
             "name": "composer/installers",
@@ -327,15 +327,15 @@
         },
         {
             "name": "wpackagist-plugin/akismet",
-            "version": "dev-trunk",
+            "version": "3.1.9",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/akismet/",
-                "reference": "trunk"
+                "reference": "tags/3.1.9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/akismet.zip",
+                "url": "https://downloads.wordpress.org/plugin/akismet.3.1.9.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -343,12 +343,11 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/akismet/",
-            "time": "2016-02-11 18:36:34"
+            "homepage": "https://wordpress.org/plugins/akismet/"
         },
         {
             "name": "wpackagist-plugin/fd-footnotes",
-            "version": "dev-trunk",
+            "version": "1.36",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/fd-footnotes/",
@@ -364,12 +363,11 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/fd-footnotes/",
-            "time": "2016-01-15 16:26:37"
+            "homepage": "https://wordpress.org/plugins/fd-footnotes/"
         },
         {
             "name": "wpackagist-plugin/inline-comments",
-            "version": "dev-trunk",
+            "version": "2.2.2",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/inline-comments/",
@@ -385,20 +383,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/inline-comments/",
-            "time": "2016-01-11 02:09:53"
+            "homepage": "https://wordpress.org/plugins/inline-comments/"
         },
         {
             "name": "wpackagist-plugin/instagram-slider-widget",
-            "version": "dev-trunk",
+            "version": "1.3.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/instagram-slider-widget/",
-                "reference": "trunk"
+                "reference": "tags/1.3.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/instagram-slider-widget.zip",
+                "url": "https://downloads.wordpress.org/plugin/instagram-slider-widget.1.3.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -406,20 +403,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/instagram-slider-widget/",
-            "time": "2015-06-29 20:41:24"
+            "homepage": "https://wordpress.org/plugins/instagram-slider-widget/"
         },
         {
             "name": "wpackagist-plugin/jetpack",
-            "version": "dev-trunk",
+            "version": "3.9.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/jetpack/",
-                "reference": "trunk"
+                "reference": "tags/3.9.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/jetpack.zip",
+                "url": "https://downloads.wordpress.org/plugin/jetpack.3.9.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -427,20 +423,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/jetpack/",
-            "time": "2016-01-21 21:00:34"
+            "homepage": "https://wordpress.org/plugins/jetpack/"
         },
         {
             "name": "wpackagist-plugin/send-email-only-on-reply-to-my-comment",
-            "version": "dev-trunk",
+            "version": "1.0.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/send-email-only-on-reply-to-my-comment/",
-                "reference": "trunk"
+                "reference": "tags/1.0.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/send-email-only-on-reply-to-my-comment.zip",
+                "url": "https://downloads.wordpress.org/plugin/send-email-only-on-reply-to-my-comment.1.0.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -448,12 +443,11 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/send-email-only-on-reply-to-my-comment/",
-            "time": "2015-03-03 15:52:58"
+            "homepage": "https://wordpress.org/plugins/send-email-only-on-reply-to-my-comment/"
         },
         {
             "name": "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g",
-            "version": "dev-trunk",
+            "version": "3.5.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/social-networks-auto-poster-facebook-twitter-g/",
@@ -469,20 +463,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/",
-            "time": "2016-03-07 19:15:53"
+            "homepage": "https://wordpress.org/plugins/social-networks-auto-poster-facebook-twitter-g/"
         },
         {
             "name": "wpackagist-plugin/stag-custom-sidebars",
-            "version": "dev-trunk",
+            "version": "1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/stag-custom-sidebars/",
-                "reference": "trunk"
+                "reference": "tags/1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/stag-custom-sidebars.zip",
+                "url": "https://downloads.wordpress.org/plugin/stag-custom-sidebars.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -490,20 +483,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/stag-custom-sidebars/",
-            "time": "2015-12-17 06:38:55"
+            "homepage": "https://wordpress.org/plugins/stag-custom-sidebars/"
         },
         {
             "name": "wpackagist-plugin/stagtools",
-            "version": "dev-trunk",
+            "version": "2.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/stagtools/",
-                "reference": "trunk"
+                "reference": "tags/2.1.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/stagtools.zip",
+                "url": "https://downloads.wordpress.org/plugin/stagtools.2.1.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -511,20 +503,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/stagtools/",
-            "time": "2015-08-21 16:08:13"
+            "homepage": "https://wordpress.org/plugins/stagtools/"
         },
         {
             "name": "wpackagist-plugin/subtitles",
-            "version": "dev-trunk",
+            "version": "2.1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/subtitles/",
-                "reference": "trunk"
+                "reference": "tags/2.1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/subtitles.zip",
+                "url": "https://downloads.wordpress.org/plugin/subtitles.2.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -532,20 +523,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/subtitles/",
-            "time": "2015-12-09 16:41:31"
+            "homepage": "https://wordpress.org/plugins/subtitles/"
         },
         {
             "name": "wpackagist-plugin/wp-ajaxify-comments",
-            "version": "dev-trunk",
+            "version": "1.4.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-ajaxify-comments/",
-                "reference": "trunk"
+                "reference": "tags/1.4.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-ajaxify-comments.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-ajaxify-comments.1.4.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -553,12 +543,11 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-ajaxify-comments/",
-            "time": "2015-12-31 12:44:51"
+            "homepage": "https://wordpress.org/plugins/wp-ajaxify-comments/"
         },
         {
             "name": "wpackagist-plugin/wp-markdown-editor",
-            "version": "dev-trunk",
+            "version": "2.0.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-markdown-editor/",
@@ -574,20 +563,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-markdown-editor/",
-            "time": "2015-11-19 09:24:21"
+            "homepage": "https://wordpress.org/plugins/wp-markdown-editor/"
         },
         {
             "name": "wpackagist-plugin/wp-retina",
-            "version": "dev-trunk",
+            "version": "1.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-retina/",
-                "reference": "trunk"
+                "reference": "tags/1.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-retina.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-retina.1.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -595,20 +583,19 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-retina/",
-            "time": "2012-04-05 08:12:37"
+            "homepage": "https://wordpress.org/plugins/wp-retina/"
         },
         {
             "name": "wpackagist-plugin/yet-another-related-posts-plugin",
-            "version": "dev-trunk",
+            "version": "4.3.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/yet-another-related-posts-plugin/",
-                "reference": "trunk"
+                "reference": "tags/4.3.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/yet-another-related-posts-plugin.zip",
+                "url": "https://downloads.wordpress.org/plugin/yet-another-related-posts-plugin.4.3.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -616,28 +603,13 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/yet-another-related-posts-plugin/",
-            "time": "2016-01-15 16:18:58"
+            "homepage": "https://wordpress.org/plugins/yet-another-related-posts-plugin/"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/stag-custom-sidebars": 20,
-        "wpackagist-plugin/fd-footnotes": 20,
-        "wpackagist-plugin/stagtools": 20,
-        "wpackagist-plugin/jetpack": 20,
-        "wpackagist-plugin/send-email-only-on-reply-to-my-comment": 20,
-        "wpackagist-plugin/yet-another-related-posts-plugin": 20,
-        "wpackagist-plugin/wp-ajaxify-comments": 20,
-        "wpackagist-plugin/inline-comments": 20,
-        "wpackagist-plugin/akismet": 20,
-        "wpackagist-plugin/wp-retina": 20,
-        "wpackagist-plugin/subtitles": 20,
-        "wpackagist-plugin/instagram-slider-widget": 20,
-        "wpackagist-plugin/wp-markdown-editor": 20,
-        "wpackagist-plugin/social-networks-auto-poster-facebook-twitter-g": 20,
         "deleomotosho/carbon": 20,
         "deleomotosho/carbon-child": 20,
         "geleyi/stag-envato-updater": 20,
